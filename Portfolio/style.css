@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script&family=Pompiere&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,500&family=Roboto&display=swap');
+
+:root
+{
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+::before,after{
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+}
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.Left-Side
+{
+    width: 19%;
+    position: sticky;
+    
+    
+    background: rgb(249, 248, 248);
+    position: fixed;
+    left:0;
+    top:0;
+    padding:30px;
+    height:100%;
+    border-right: 1px solid var(--bg-black-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 10 ;
+     
+}
+.Left-Side .logo{
+    position: absolute;
+    top:50px;
+    font-size: 30px;
+    text-transform: capitalize  ;
+}
+.Left-Side .logo a{
+    color:var(--text-black-900);
+    font-weight: 700;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position:relative;
+}
+.Left-Side .logo a span {
+    font-family: 'Clicker Script', cursive;
+    font-family: 40px;
+    color:red;
+}
+.Left-Side .logo a :nth-child(3) {
+    font-family:'Clicker Script', cursive;
+    font-family: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+
+.Left-Side .logo a::after{
+    content: ' ';
+    position: absolute;
+    width: 76px;
+    height: 43px;
+    border-top: 8px solid red;
+    border-right: 8px solid red;
+    top: 0px;
+    right: -31px;
+     
+}
+.Left-Side .logo a::before{
+    content: ' ';
+    position: absolute;
+    width: 76px;
+    height: 43px;
+    border-bottom: 8px solid red;
+    border-left: 8px solid red;
+    bottom: 0px;
+    left: -1px;
+     
+}
+
+.main-container ul li a:hover{
+    color:red;
+    font-size: 1.2rem;
+
+}
+
+.Left-Side .nav{
+     margin-top:50px;
+
+}
+.Left-Side .nav li{
+     margin-bottom: 20px;
+     display: block;
+
+}
+.Left-Side .nav li a{
+    font-size:16px;
+     font-weight: 600;
+     display: block;
+     border-bottom: 1px solid var(--bg-black-50);
+
+     color: var(--bg-black-700);
+     padding: 5px 15px;
+}
+
+.Left-Side .nav li a i{
+    margin-right: 15px;
+
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+    
+}
+.home .home-info{
+    flex: 0 0 60%; 
+    max-width: 60%;
+
+}
+.Right-Side{
+    width:81%;
+    position:absolute;
+    right: 0;
+    height:100vh;
+    /* border:2px solid black; */
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    color: var(--text-black-900);
+    
+}
+.home .home-info{
+    flex: 0 0 60%; 
+    max-width: 60%;
+
+}
+
+.home-img img{
+    height: 300px;
+    width:300px;
+    border-radius:50%;
+
+}
+.Hello{
+    font-size: 30px;
+    font-family: 'Pompiere', cursive;
+
+
+
+}
+#name{
+    color: red;
+
+}
+.typing{
+    color:red;
+}
+#element{
+    color:red;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 127px;
+}
+
+.home-info p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    margin: 0px 160px;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    color:red;
+    font-size: 110px;
+    font-family: 'Dancing Script',sans-serif;
+}
+.title p:nth-child(2){
+    font-family: pompiere,Sans-serif;
+    text-transform:uppercase;
+    font-size:20px;
+    letter-spacing:10px;
+    color:black;
+    text-align: 100%;
+    font-weight: bold;
+}
+.title p:nth-child(3){
+    margin: 38px 56px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.items{
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    
+    
+    
+}
+.resturent{
+    display: flex;
+    /* overflow: auto; */
+}
+.resturent img{
+    position: absolute;
+    width: 591px;
+    height: 360px;
+    border-radius:10px;
+}
+.details{
+    width: 609px;
+    height: 308px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    right: 0;
+    margin: 26px -70px 26px 584px;
+}
+.details h3{
+    font-family: 'Dancing Script',sans-serif;
+    color:black;
+    font-size: 75px;
+    font-weight: 10;
+    
+}
+.details h6{
+    font-family:rubik,Sans-serif;;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: normal;
+    line-height: 1;
+    margin: 12px;
+    
+    
+}
+.details p{
+    font-family:rubik,Sans-serif;;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    margin:12px;   
+}
+.institute{
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top:10px;
+    
+}
+.institute img{
+    position: absolute;
+    width: 523px;
+    height: 360px;
+    margin-right: -67px;
+}
+.instituteDetails{
+    width: 609px;
+    height: 308px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    left: 0;
+    margin: 36px 447px 0px 0px;
+}
+.instituteDetails h3{
+    color:black;
+    font-size: 75px;
+    font-weight: 10;
+    font-family: 'Dancing Script',sans-serif;
+    
+}
+.instituteDetails h6{
+    font-family:rubik,Sans-serif;;
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: normal;
+    line-height: 1;
+    margin: 12px;
+    font-size: 15px;
+}
+.instituteDetails p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    margin:12px;   
+    font-family:rubik,Sans-serif;;
+}
+
+.chatBoat{
+    display: flex;
+    margin-top: 30px;
+    /* overflow: auto; */
+}
+.chatBoat img{
+    position: absolute;
+    width: 546px;
+    height: 360px;
+    border-radius:10px;
+}
+.chatBoatDetails{
+    width: 609px;
+    height: 308px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    right: 0;
+    margin: 26px -70px 26px 530px;
+}
+.chatBoatDetails h3{
+    font-family: 'Dancing Script',sans-serif;
+    color:black;
+    font-size: 75px;
+    font-weight: 10;
+    
+}
+.chatBoatDetails h6{
+    font-family:rubik,Sans-serif;;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.534);
+    font-weight: normal;
+    line-height: 1;
+    margin: 12px;
+    
+    
+}
+.chatBoatDetails p{
+    font-family:rubik,Sans-serif;;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.534);
+    margin:12px;   
+}
+.btn{
+    color: black;
+    background: red;
+    font-size: 27px;
+    padding: 14px 17px;
+    border-style: none;
+    text-align: center;
+    font-family: poppins,Sans-serif;
+    font-weight: 501;
+    display: block;
+    margin-inline: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}

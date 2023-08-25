@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+</head>
+<body>
+    <div class="main-container">
+        <div class="Left-Side">
+            <div class="logo">
+                <a href="#"><span>H</span>imanshu<br><span> R</span>anjan</a>
+            </div>
+                <div class="nav-toggler">
+                </div>
+                <ul class="nav">
+                    <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+                    <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                    <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                    
+                </ul>
+        </div>
+        <div class="Right-Side">
+                <div class="container">
+                  <div class="row">
+                    <div class="home-info padd-15">
+                      <h3 class="Hello">Hello, My name is <span id="name"></span></h3>
+                        <h3 class="my-profession">I'm a <span id="element"></span>
+                        </h3>
+                        <p>"Hello there! I'm a passionate web developer who crafts digital experiences through lines of code. With a keen eye for design and a love for problem-solving, I bring websites and web applications to life, transforming ideas into interactive and visually appealing online realities."</p>
+                    </div>
+                    <div class="home-img">
+                      <img src="assets/dp.jpg" alt="">
+                    </div>
+                  </div>
+                  <div class="section">
+                    <section class="content">
+                        <div class="title">
+                          <h1>My Projects</h1>
+                          <p>My Academic Projects</p>
+                          <p>Craving some delicious food? Maybe you’re in the mood for a chinese burning cuisine?
+                            No matter what kind of meal you have in mind, we are ready to prepare it for you.</p>
+                        </div>
+                        <div class="items">
+                          <div class="resturent">
+                            <img src="assets/resturent.png" alt="">
+                            <div class="details">
+                              <h3>Resturent</h3>
+                              <h6> A vibrant restaurant website </h6>
+                              <p>I orchestrated the creation of a vibrant restaurant website using HTML, CSS, and JavaScript. This fusion of coding languages facilitated an enticing layout, elegant design, and interactive elements such as menus and reservation forms, ultimately delivering a captivating digital dining experience.</p>
+                            </div>
+                          </div>
+                          <div class="institute">
+                            <img src="assets/instutional.png" alt="">
+                            <div class="instituteDetails ">
+                              <h3>Institution</h3>
+                              <h6>An Institutional website</h6>
+                              <p>I orchestrated the development of an institutional website by seamlessly integrating HTML, CSS, and JavaScript. This amalgamation of technologies yielded an intuitive interface, visually appealing design, and dynamic features like event calendars and interactive forms, collectively enhancing the user experience and providing valuable information for visitors.</p>
+                            </div>
+                          </div>
+                          <div class="chatBoat">
+                            <img src="assets/chatBoat.png" alt="">
+                            <div class="chatBoatDetails ">
+                              <h3>chatBoat</h3>
+                              <h6>A responsive chatBoat</h6>
+                              <p>I orchestrated the development of a chatBoat by seamlessly integrating HTML, CSS, and JavaScript. This amalgamation of technologies yielded an intuitive interface, visually appealing design, and dynamic features like event calendars and interactive forms, collectively enhancing the user experience and providing valuable information for visitors.</p>
+                            </div>
+                          </div>
+                          <div class="button">
+                            <button class="btn">Hire me</button>
+                          </div>
+                          </div>
+                        </div>
+                        
+                      </section>
+
+                  </div>
+                </div>
+
+        </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+          var typed = new Typed('#name', {
+            strings: ['Himanshu Ranjan .'],
+            typeSpeed: 50,
+          });
+        </script>
+        <script>
+          var typed = new Typed('#element', {
+            strings: ['Web Developer .', ' Web Designer .'],
+            typeSpeed: 100,
+          });
+        </script>
+        
+</body>
+</html>
